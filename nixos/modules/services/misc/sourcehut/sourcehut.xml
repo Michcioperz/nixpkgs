@@ -74,9 +74,9 @@ in {
     # Settings to setup what certificates are used for which endpoint.
     <link linkend="opt-services.nginx.virtualHosts">virtualHosts</link> = {
       <link linkend="opt-services.nginx.virtualHosts._name_.enableACME">"${fqdn}".enableACME</link> = true;
-      <link linkend="opt-services.nginx.virtualHosts._name_.useACMEHost">"meta.${fqdn}".useACMEHost</link> = fqdn:
-      <link linkend="opt-services.nginx.virtualHosts._name_.useACMEHost">"man.${fqdn}".useACMEHost</link> = fqdn:
-      <link linkend="opt-services.nginx.virtualHosts._name_.useACMEHost">"git.${fqdn}".useACMEHost</link> = fqdn:
+      <link linkend="opt-services.nginx.virtualHosts._name_.useACMEHost">"meta.${fqdn}".useACMEHost</link> = fqdn;
+      <link linkend="opt-services.nginx.virtualHosts._name_.useACMEHost">"man.${fqdn}".useACMEHost</link> = fqdn;
+      <link linkend="opt-services.nginx.virtualHosts._name_.useACMEHost">"git.${fqdn}".useACMEHost</link> = fqdn;
     };
   };
 }
